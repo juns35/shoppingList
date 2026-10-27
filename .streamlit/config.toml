@@ -1,0 +1,19 @@
+# 테마 설정: 사용자가 밝은/어두운 모드를 고를 수 있도록 base는 지정하지 않고 모드별 색상만 정의
+[theme]
+font = "Noto Sans KR:https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap, sans-serif"
+baseRadius = "medium"
+
+[theme.light]
+primaryColor = "#2E9E5B"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F1F7F3"
+textColor = "#1F2A24"
+
+[theme.dark]
+primaryColor = "#4CC37E"
+backgroundColor = "#111814"
+secondaryBackgroundColor = "#1D2721"
+textColor = "#E6EDE8"
+# 체크박스·카드 테두리와 완료 아이템(회색 글씨)이 어두운 배경에서 잘 보이도록 밝게 조정
+borderColor = "#5C6E63"
+grayTextColor = "#A9B6AE"
