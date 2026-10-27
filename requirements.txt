@@ -1,0 +1,2 @@
+# 1.51 이상 필요: 가로 컨테이너(st.container(horizontal=True), 1.48+)와 테마 [theme.light]/[theme.dark](1.51+) 사용
+streamlit>=1.51,<2.0
